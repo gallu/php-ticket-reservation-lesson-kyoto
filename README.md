@@ -18,6 +18,7 @@ wget -O lesson.zip https://github.com/gallu/php-ticket-reservation-lesson-kyoto/
 
 ```bash
 unzip lesson.zip
+rm lesson.zip
 ```
 
 展開すると、以下のディレクトリが作成されます。
@@ -30,6 +31,12 @@ php-ticket-reservation-lesson-kyoto-master
 
 ```bash
 cd php-ticket-reservation-lesson-kyoto-master
+```
+
+ライブラリをインストールします。
+
+```
+composer install
 ```
 
 ### 3. Gitリポジトリとして初期化する
