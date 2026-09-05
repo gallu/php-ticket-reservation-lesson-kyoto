@@ -103,3 +103,11 @@ git push
 
 教材の元リポジトリではなく、**必ず自分のGitHubリポジトリへpushしていることを確認してください。**
 
+---
+
+## 動かし方
+
+```
+cd ~/php-ticket-reservation-lesson-kyoto-master
+php -S 0.0.0.0:貸与されたport番号 -t public
+```
